@@ -7,8 +7,12 @@ export default function App() {
   console.log(exercise)
   return (
     <View style={styles.container}>
-      <Text style={styles.exerciseName}>{exercise.name}</Text>
-      <Text style={styles.exerciseSubtitle}> Partia: {exercise.muscle} | Sprzęt: {exercise.equipment}</Text>
+      <View style={styles.exerciseContainer}>
+        <Text style={styles.exerciseName}>{exercise.name}</Text>
+        <View style={styles.exerciseDetails}>
+          <Text style={styles.exerciseSubtitle}>{exercise.muscle} | {exercise.equipment}</Text>
+        </View>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,19 +21,27 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: 'gainsboro',
     justifyContent: 'center',
+    padding: 10,
+  },
+  exerciseContainer: {
+    backgroundColor: 'white',
+    padding: 10,
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  exerciseDetails: {
+    alignItems: 'center', 
+    paddingTop: 5, 
   },
   exerciseName: {
     textAlign: 'center',
-    flexWrap: 'wrap',
     fontSize: 18,
-    fontWeight: '500'
-  }, 
+    fontWeight: '500',
+  },
   exerciseSubtitle: {
-    paddingTop: 10,
+    textTransform: 'capitalize',
     color: 'dimgray',
-    textAlign: 'center',
   }
 });
