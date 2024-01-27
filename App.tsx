@@ -1,21 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { FlashList, ListRenderItem} from '@shopify/flash-list'
-import { Exercise } from './lib/types/exercise';
+import { StyleSheet, View } from 'react-native';
+import { FlashList} from '@shopify/flash-list'
 import exercises from './assets/data/exercises.json';
+import { renderItem } from './src/components/ExerciseListItem';
 
 export default function App() {
 
-  const renderItem: ListRenderItem<Exercise> = ({ item }) => (
-    <View style={styles.exerciseContainer}>
-      <Text style={styles.exerciseName}>{item.name}</Text>
-      <Text style={styles.exerciseSubtitle}>
-        {item.muscle} | {item.equipment}
-      </Text>
-    </View>
-  )
-
-  
 
   return (
     <View style={styles.container}>
@@ -37,19 +27,5 @@ const styles = StyleSheet.create({
     backgroundColor: 'gainsboro',
     justifyContent: 'center',
     padding: 10,
-  },
-  exerciseContainer: {
-    backgroundColor: '#fff',
-    padding: 10,
-    borderRadius: 10,
-    gap: 5,
-  },
-  exerciseName: {
-    fontSize: 20,
-    fontWeight: '500',
-  },
-  exerciseSubtitle: {
-    color: 'dimgray',
-    textTransform: 'uppercase',
   },
 });
