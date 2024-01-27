@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Uginanie Ramion na Ławce Skośnej z Młotkowym Chwytem",
     "type": "siła",
     "muscle": "biceps",
@@ -8,6 +9,7 @@
     "instructions": "Usiądź na skośnej ławce trzymając hantlę w każdej ręce. Plecy powinny być mocno przyciśnięte do oparcia, a stopy razem. Pozwól hantlom zwisać prosto w dół przy boku, trzymając je neutralnym chwytem. To będzie Twoja pozycja wyjściowa. Rozpocznij ruch przez zginanie w łokciu, starając się utrzymać górną część ramienia nieruchomo. Kontynuuj do góry ruchu i zatrzymaj się, a następnie powoli wróć do pozycji wyjściowej."
   },
   {
+    "id": 2,
     "name": "Uginanie Ramion ze Sztangą na Szeroki Chwyt",
     "type": "siła",
     "muscle": "biceps",
@@ -16,6 +18,7 @@
     "instructions": "Stań prosto z wyprostowanym tułowiem trzymając sztangę na szerokim, zewnętrznym chwycie. Dłonie powinny być skierowane do przodu. Łokcie powinny być blisko tułowia. To będzie Twoja pozycja wyjściowa. Trzymając górną część ramienia nieruchomo, zginaj sztangę do przodu, kurcząc biceps podczas wydechu. Wskazówka: Tylko przedramiona powinny się poruszać. Kontynuuj ruch do momentu pełnego skurczu bicepsów, gdy sztanga znajdzie się na wysokości ramion. Zatrzymaj się na chwilę w pozycji skurczu i mocno ściskaj biceps. Powoli zacznij wracać do pozycji wyjściowej podczas wdechu. Powtórz zalecaną liczbę powtórzeń. Warianty: Możesz także wykonać to ćwiczenie używając sztangi E-Z lub końcówki E-Z podłączonej do dolnego wyciągu. Ta wersja wydaje się zapewniać dobry skurcz na szczycie ruchu. Możesz także użyć bliższego chwytu dla różnorodności."
   },
   {
+    "id": 3,
     "name": "Uginanie Ramion ze Sztangą EZ na Ławce Spider",
     "type": "siła",
     "muscle": "biceps",
@@ -24,6 +27,7 @@
     "instructions": "Zacznij od ustawienia sztangi na części ławki do modlitewnika, na której zwykle siadasz. Upewnij się, że sztanga jest właściwie wyważona i nie spadnie. Przejdź na przednią stronę ławki (tam, gdzie zwykle opierasz ramiona) i ułóż się pod kątem 45 stopni, przyciskając tułów i brzuch do przedniej części ławki. Upewnij się, że stopy (szczególnie palce) są dobrze ustawione na podłodze i umieść górną część ramion na poduszce znajdującej się na wewnętrznej części ławki. Użyj rąk, aby chwycić sztangę chwytem supinacyjnym (dłonie skierowane do góry) w odległości około szerokości ramion lub nieco bliżej siebie. Powoli zacznij podnosić sztangę do góry i wydechuj. Zatrzymaj się na chwilę w pozycji skurczu, ściskając bicepsy. Powoli zacznij opuszczać sztangę do pozycji wyjściowej, wdychając. Powtórz zalecaną liczbę powtórzeń. Wariant: Możesz także użyć hantli do wykonania tego ćwiczenia. Upewnij się tylko, że umieścisz hantle na części ławki, na której zwykle siadasz."
   },
   {
+    "id": 4,
     "name": "Młotkowe Uginanie Ramion",
     "type": "siła",
     "muscle": "biceps",
@@ -32,6 +36,7 @@
     "instructions": "Stań prosto z wyprostowanym tułowiem, trzymając hantlę w każdej ręce wzdłuż ciała. Łokcie powinny być blisko tułowia. Dłonie powinny być zwrócone w kierunku tułowia. To będzie Twoja pozycja wyjściowa. Teraz, trzymając górną część ramienia nieruchomo, wydechuj i zginaj ciężar do przodu, kurcząc biceps. Kontynuuj podnoszenie ciężaru, aż biceps będzie całkowicie skurczony, a hantla na wysokości ramienia. Zatrzymaj się na chwilę w pozycji skurczu, ściskając biceps. Wskazówka: Skup się na utrzymaniu łokcia w miejscu i poruszaj tylko przedramieniem. Po krótkiej przerwie, wdychaj i powoli zacznij opuszczać hantle z powrotem do pozycji wyjściowej. Powtórz zalecaną liczbę powtórzeń. Warianty: Istnieje wiele możliwych wariantów tego ruchu. Na przykład, możesz wykonać ćwiczenie siedząc na ławce z oparciem lub bez, a także możesz wykonywać je na przemian ramionami; najpierw podnieś prawe ramię na jedno powtórzenie, potem lewe, potem znowu prawe, itd."
   },
   {
+    "id": 5,
     "name": "Uginanie Ramion ze Sztangą EZ",
     "type": "siła",
     "muscle": "biceps",
@@ -40,6 +45,7 @@
     "instructions": "Stań prosto, trzymając sztangę EZ na szerokim, zewnętrznym chwycie. Dłonie powinny być skierowane do przodu i lekko przechylone do wewnątrz ze względu na kształt sztangi. Trzymaj łokcie blisko tułowia. To będzie Twoja pozycja wyjściowa. Teraz, trzymając górną część ramienia nieruchomo, wydechuj i zginaj ciężar do przodu, kurcząc biceps. Skup się na poruszaniu tylko przedramionami. Kontynuuj podnoszenie ciężaru, aż biceps będzie całkowicie skurczony, a sztanga na wysokości ramienia. Zatrzymaj się na chwilę w pozycji skurczu i ściskaj biceps. Następnie wdychaj i powoli opuszczaj sztangę z powrotem do pozycji wyjściowej. Powtórz zalecaną liczbę powtórzeń. Warianty: Możesz także wykonać to ćwiczenie używając końcówki EZ podłączonej do dolnego wyciągu. Ta wersja wydaje się zapewniać dobry skurcz na szczycie ruchu. Możesz także użyć bliższego chwytu dla różnorodności."
   },
   {
+    "id": 6,
     "name": "Zottman Curl",
     "type": "siła",
     "muscle": "biceps",
@@ -56,6 +62,7 @@
     "instructions": "Zacznij w pozycji stojącej, trzymając hantlę w każdej ręce. Ramiona powinny zwisać przy bokach z dłońmi skierowanymi do przodu. Patrz prosto przed siebie, trzymając klatkę piersiową w górze, z nogami ustawionymi na szerokość ramion. To będzie Twoja pozycja wyjściowa. Rozpocznij ruch, zginając łokcie, aby podnieść ciężar. Nie używaj pędu ani nie zginalaj w ramionach, zamiast tego wykonaj kontrolowany ruch. Wykonaj ruch wyciskania, prostując ramię, zginalając i odwodząc ramię, aby obracać ramię, gdy podnosisz je nad głowę. Zatrzymaj się na chwilę na szczycie ruchu, zanim odwrócisz ruch, aby wrócić do pozycji wyjściowej. Wykonaj zalecaną liczbę powtórzeń przed przejściem na drugą stronę."
   },
   {
+    "id": 7,
     "name": "Uginanie Ramion ze Sztangą",
     "type": "strength",
     "muscle": "biceps",
@@ -72,6 +79,7 @@
     "instructions": "Usiądź na płaskiej ławce z jedną hantlą umieszczoną przed Tobą między nogami. Nogi powinny być rozstawione, kolana zgięte, a stopy na podłodze. Użyj prawej ręki, aby podnieść hantlę. Połóż tył prawego górnego ramienia na górnej części wewnętrznej strony prawego uda. Obróć dłoń tak, aby była skierowana do przodu, z dala od uda. Wskazówka: Twoje ramię powinno być wyprostowane, a hantla powyżej podłogi. To będzie Twoja pozycja wyjściowa. Trzymając górną część ramienia nieruchomo, zginaj hantle do przodu, kurcząc biceps podczas wydechu. Tylko przedramiona powinny się poruszać. Kontynuuj ruch aż biceps będzie w pełni skurczony, a hantle znajdą się na wysokości ramion. Wskazówka: Na szczycie ruchu upewnij się, że mały palec Twojej ręki jest wyżej niż kciuk. Gwarantuje to dobry skurcz. Zatrzymaj skurcz na sekundę, ściskając biceps. Powoli zacznij opuszczać hantle do pozycji wyjściowej podczas wdechu. Uwaga: Unikaj ruchów kołyszących w dowolnym momencie. Powtórz zalecaną liczbę powtórzeń. Następnie powtórz ruch lewą ręką. Warianty: To ćwiczenie można również wykonać stojąc, z tułowiem pochylonym do przodu i ramieniem przed sobą. W tym przypadku nie używa się wsparcia dla tylnej części ramienia, więc będziesz musiał dodatkowo zadbać o to, aby górna część ramienia się nie poruszała. Jest to trudniejsza wersja ćwiczenia i nie jest zalecana dla osób z problemami z dolnym odcinkiem pleców."
   },
   {
+    "id": 8,
     "name": "Uginanie Ramion na Ławce Skośnej z Hantlami Flexor",
     "type": "strength",
     "muscle": "biceps",
