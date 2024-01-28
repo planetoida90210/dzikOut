@@ -54,6 +54,7 @@
     "instructions": "Stań prosto z wyprostowanym tułowiem, trzymając hantlę w każdej ręce wzdłuż ciała. Łokcie powinny być blisko tułowia. Upewnij się, że dłonie są zwrócone do siebie. To będzie Twoja pozycja wyjściowa. Trzymając górną część ramienia nieruchomo, zginaj ciężar, kurcząc biceps podczas wydechu. Tylko przedramiona powinny się poruszać. Nadgarstek powinien obracać się tak, aby uzyskać chwyt supinacyjny (dłonie do góry). Kontynuuj ruch aż do pełnego skurczu bicepsów, gdy hantle znajdą się na wysokości ramion. Zatrzymaj się na chwilę w pozycji skurczu i ściskaj biceps. Teraz, będąc w pozycji skurczu, obróć nadgarstek, aby uzyskać chwyt pronacyjny (dłonie skierowane w dół) z kciukiem w wyższej pozycji niż mały palec. Powoli zacznij opuszczać hantle w dół, używając chwytu pronacyjnego. Gdy hantle zbliżą się do ud, zacznij obracać nadgarstek, aby wrócić do neutralnego chwytu (dłonie skierowane do ciała). Powtórz zalecaną liczbę powtórzeń."
   },
   {
+    "id": 7,
     "name": "Uginanie Ramion ze Sztangielkami do Wyciskania zza Głowy",
     "type": "siła",
     "muscle": "biceps",
@@ -62,7 +63,7 @@
     "instructions": "Zacznij w pozycji stojącej, trzymając hantlę w każdej ręce. Ramiona powinny zwisać przy bokach z dłońmi skierowanymi do przodu. Patrz prosto przed siebie, trzymając klatkę piersiową w górze, z nogami ustawionymi na szerokość ramion. To będzie Twoja pozycja wyjściowa. Rozpocznij ruch, zginając łokcie, aby podnieść ciężar. Nie używaj pędu ani nie zginalaj w ramionach, zamiast tego wykonaj kontrolowany ruch. Wykonaj ruch wyciskania, prostując ramię, zginalając i odwodząc ramię, aby obracać ramię, gdy podnosisz je nad głowę. Zatrzymaj się na chwilę na szczycie ruchu, zanim odwrócisz ruch, aby wrócić do pozycji wyjściowej. Wykonaj zalecaną liczbę powtórzeń przed przejściem na drugą stronę."
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Uginanie Ramion ze Sztangą",
     "type": "strength",
     "muscle": "biceps",
@@ -71,6 +72,7 @@
     "instructions": "Stań prosto, trzymając sztangę chwytem na szerokość barków. Dłonie powinny być skierowane do przodu, a łokcie blisko tułowia. To będzie Twoja pozycja wyjściowa. Trzymając górną część ramienia nieruchomo, zginaj sztangę do przodu, kurcząc biceps podczas wydechu. Wskazówka: Tylko przedramiona powinny się poruszać. Kontynuuj ruch aż biceps będzie w pełni skurczony i sztanga znajdzie się na wysokości ramion. Zatrzymaj skurcz na sekundę i ściskaj mocno biceps. Powoli zacznij opuszczać sztangę do pozycji wyjściowej podczas wdechu. Powtórz zalecaną liczbę powtórzeń. Warianty: Możesz również wykonać to ćwiczenie używając prostej końcówki przymocowanej do niskiego wyciągu. Ta wersja wydaje się zapewniać dobry skurcz na szczycie ruchu. Możesz również użyć bliższego chwytu dla zróżnicowania."
   },
   {
+    "id": 9,
     "name": "Uginanie Ramion z Koncentracją",
     "type": "strength",
     "muscle": "biceps",
@@ -79,12 +81,57 @@
     "instructions": "Usiądź na płaskiej ławce z jedną hantlą umieszczoną przed Tobą między nogami. Nogi powinny być rozstawione, kolana zgięte, a stopy na podłodze. Użyj prawej ręki, aby podnieść hantlę. Połóż tył prawego górnego ramienia na górnej części wewnętrznej strony prawego uda. Obróć dłoń tak, aby była skierowana do przodu, z dala od uda. Wskazówka: Twoje ramię powinno być wyprostowane, a hantla powyżej podłogi. To będzie Twoja pozycja wyjściowa. Trzymając górną część ramienia nieruchomo, zginaj hantle do przodu, kurcząc biceps podczas wydechu. Tylko przedramiona powinny się poruszać. Kontynuuj ruch aż biceps będzie w pełni skurczony, a hantle znajdą się na wysokości ramion. Wskazówka: Na szczycie ruchu upewnij się, że mały palec Twojej ręki jest wyżej niż kciuk. Gwarantuje to dobry skurcz. Zatrzymaj skurcz na sekundę, ściskając biceps. Powoli zacznij opuszczać hantle do pozycji wyjściowej podczas wdechu. Uwaga: Unikaj ruchów kołyszących w dowolnym momencie. Powtórz zalecaną liczbę powtórzeń. Następnie powtórz ruch lewą ręką. Warianty: To ćwiczenie można również wykonać stojąc, z tułowiem pochylonym do przodu i ramieniem przed sobą. W tym przypadku nie używa się wsparcia dla tylnej części ramienia, więc będziesz musiał dodatkowo zadbać o to, aby górna część ramienia się nie poruszała. Jest to trudniejsza wersja ćwiczenia i nie jest zalecana dla osób z problemami z dolnym odcinkiem pleców."
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "Uginanie Ramion na Ławce Skośnej z Hantlami Flexor",
     "type": "strength",
     "muscle": "biceps",
     "equipment": "dumbbell",
     "difficulty": "beginner",
     "instructions": "Trzymaj hantlę bliżej zewnętrznej strony, tak aby większy ciężar znajdował się po stronie bliższej ciała. (Można to zastosować dla lepszego efektu we wszystkich ćwiczeniach na biceps z hantlami). Teraz wykonaj normalne uginanie ramion z hantlami na ławce skośnej, ale trzymaj nadgarstki jak najdalej do tyłu, aby zneutralizować wszelkie obciążenia na nich. Usiądź na skośnej ławce pod kątem 45 stopni, trzymając hantlę w każdej ręce. Pozwól ramionom zwisać w dół po bokach, z łokciami wewnętrznymi, obróć dłonie do przodu, z kciukami skierowanymi na zewnątrz od ciała. Wskazówka: Ta pozycja dłoni powinna być zachowana przez cały ruch, nie powinno być żadnego skręcania dłoni podczas podnoszenia. To będzie Twoja pozycja wyjściowa. Podnieś obie hantle jednocześnie, aż biceps będzie w pełni skurczony i wydech. Wskazówka: Nie machaj ramionami ani nie używaj pędu. Zachowaj kontrolowany ruch przez cały czas. Przytrzymaj skurcz na sekundę na górze. Podczas wdechu powoli wróć do pozycji wyjściowej. Powtórz zalecaną liczbę powtórzeń. Uwaga: Nie prostuj całkowicie ramion, gdyż możesz uszkodzić łokcie, jeśli je przeprostujesz. Upewnij się również, że podczas opuszczania hantli poruszasz się powoli, aby uniknąć urazów. Warianty: Możesz również użyć linek do tego ruchu."
+  },
+  {
+    "id": 11,
+    "name": "Przysiady ze Sztangą",
+    "type": "siła",
+    "muscle": "nogi",
+    "equipment": "sztanga",
+    "difficulty": "średniozaawansowany",
+    "instructions": "Stań prosto z sztangą umieszczoną na barkach. Stopami ustawionymi na szerokość barków, wykonaj przysiad, zginając kolana. Wróć do pozycji wyjściowej."
+  },
+  {
+    "id": 12,
+    "name": "Martwy Ciąg",
+    "type": "siła",
+    "muscle": "plecy",
+    "equipment": "sztanga",
+    "difficulty": "zaawansowany",
+    "instructions": "Stań przed sztangą, pochyl się i chwyć ją chwytem nachwytem. Prostując nogi, unieś sztangę do wysokości bioder, a następnie delikatnie opuść."
+  },
+  {
+    "id": 13,
+    "name": "Wyciskanie Sztangi na Ławce Poziomej",
+    "type": "siła",
+    "muscle": "klatka piersiowa",
+    "equipment": "sztanga",
+    "difficulty": "początkujący",
+    "instructions": "Połóż się na ławce, chwyć sztangę szerokim chwytem i wyciśnij ją nad klatką piersiową. Powoli opuść sztangę i powtórz ruch."
+  },
+  {
+    "id": 14,
+    "name": "Podciąganie na Drążku",
+    "type": "siła",
+    "muscle": "barki",
+    "equipment": "drążek",
+    "difficulty": "średniozaawansowany",
+    "instructions": "Chwyć drążek nachwytem na szerokość barków. Podciągnij ciało do góry, aż broda znajdzie się ponad drążkiem, a następnie opuść się z powrotem."
+  },
+  {
+    "id": 15,
+    "name": "Wznosy Hantli Bokiem",
+    "type": "siła",
+    "muscle": "barki",
+    "equipment": "hantle",
+    "difficulty": "początkujący",
+    "instructions": "Stań prosto z hantlami trzymanymi wzdłuż ciała. Unieś hantle na boki do wysokości ramion, a następnie powoli je opuść."
   }
 ]

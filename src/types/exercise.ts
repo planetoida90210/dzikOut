@@ -1,9 +1,9 @@
 export type Exercise = {
-        id: number;
-        name: string;
-        type: string;
-        muscle: string;
-        equipment: string;
-        difficulty: string;
-        instructions: string;
-}
+  id: number;
+  name: string;
+  type: string;
+  muscle: string;
+  equipment: string;
+  difficulty: string;
+  instructions: string;
+};
