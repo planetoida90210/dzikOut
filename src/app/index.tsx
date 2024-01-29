@@ -1,8 +1,9 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
 import { FlashList } from "@shopify/flash-list";
-import exercises from "./assets/data/exercises.json";
-import { renderItem } from "./src/components/ExerciseListItem";
+import { StyleSheet, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
+
+import exercises from "@/assets/data/exercises.json";
+import { renderItem } from "@/components/ExerciseListItem";
 
 export default function App() {
   return (
@@ -22,9 +23,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "gainsboro",
     justifyContent: "center",
-    paddingHorizontal: 10,
-    paddingTop: 70,
+    padding: 10,
   },
 });
