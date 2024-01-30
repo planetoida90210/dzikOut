@@ -1,6 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { useLocalSearchParams } from "expo-router";
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+  Pressable,
+} from "react-native";
+import { router, useLocalSearchParams } from "expo-router";
 
 import exercises from "@/assets/data/exercises.json";
 import { Exercise } from "@/types/exercise";
@@ -28,7 +35,7 @@ const styles = StyleSheet.create({
   },
   instructions: {
     fontSize: 16,
-    lineHeight: 22,
+    lineHeight: 20,
   },
 });
 
@@ -47,16 +54,18 @@ export default function exercisePage() {
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <Stack.Screen options={{ title: exercise.name }} />
-      <Text style={styles.exerciseName}>{exercise.name}</Text>
-      <Text style={styles.exerciseSubtitle}>
-        <Text style={styles.subValue}>{exercise.muscle}</Text> |{" "}
-        <Text style={styles.subValue}>{exercise.equipment}</Text>
-      </Text>
+      <View style={styles.panel}>
+        <Text style={styles.exerciseName}>{exercise.name}</Text>
+        <Text style={styles.exerciseSubtitle}>
+          <Text style={styles.subValue}>{exercise.muscle}</Text> |{" "}
+          <Text style={styles.subValue}>{exercise.equipment}</Text>
+        </Text>
+      </View>
       <View style={styles.panel}>
         <Text style={styles.instructions}>{exercise.instructions}</Text>
       </View>
-    </View>
+    </ScrollView>
   );
 }
