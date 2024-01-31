@@ -1,12 +1,5 @@
-import React from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  TouchableOpacity,
-  Pressable,
-} from "react-native";
+import React, { useState } from "react";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 
 import exercises from "@/assets/data/exercises.json";
@@ -37,10 +30,18 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
   },
+  seeMore: {
+    alignSelf: "center",
+    padding: 10,
+    fontWeight: "600",
+    color: "gray",
+  },
 });
 
 export default function exercisePage() {
   const { id } = useLocalSearchParams();
+  const [isInstructionsExpanded, setIsInstructionsExpanded] =
+    useState<boolean>(false);
   const exercise = exercises.find(
     (item: Exercise) => item.id.toString() === id
   );
@@ -64,7 +65,18 @@ export default function exercisePage() {
         </Text>
       </View>
       <View style={styles.panel}>
-        <Text style={styles.instructions}>{exercise.instructions}</Text>
+        <Text
+          numberOfLines={isInstructionsExpanded ? 0 : 4}
+          style={styles.instructions}
+        >
+          {exercise.instructions}
+        </Text>
+        <Text
+          onPress={() => setIsInstructionsExpanded(!isInstructionsExpanded)}
+          style={styles.seeMore}
+        >
+          {isInstructionsExpanded ? "Zwiń" : "Więcej"}
+        </Text>
       </View>
     </ScrollView>
   );
