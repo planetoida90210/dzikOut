@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
-import { router, useLocalSearchParams } from "expo-router";
+import React, { useState } from 'react';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { router, useLocalSearchParams } from 'expo-router';
 
-import exercises from "@/assets/data/exercises.json";
-import { Exercise } from "@/types/exercise";
-import { Stack } from "expo-router";
+import exercises from '@/assets/data/exercises.json';
+import { Exercise } from '@/types/exercise';
+import { Stack } from 'expo-router';
 
 const styles = StyleSheet.create({
   container: {
@@ -12,29 +12,29 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   panel: {
-    backgroundColor: "white",
+    backgroundColor: 'white',
     padding: 10,
     borderRadius: 5,
   },
   exerciseName: {
     fontSize: 20,
-    fontWeight: "500",
+    fontWeight: '500',
   },
   exerciseSubtitle: {
-    color: "dimgray",
+    color: 'dimgray',
   },
   subValue: {
-    textTransform: "capitalize",
+    textTransform: 'capitalize',
   },
   instructions: {
     fontSize: 16,
     lineHeight: 20,
   },
   seeMore: {
-    alignSelf: "center",
+    alignSelf: 'center',
     padding: 10,
-    fontWeight: "600",
-    color: "gray",
+    fontWeight: '600',
+    color: 'gray',
   },
 });
 
@@ -43,7 +43,7 @@ export default function exercisePage() {
   const [isInstructionsExpanded, setIsInstructionsExpanded] =
     useState<boolean>(false);
   const exercise = exercises.find(
-    (item: Exercise) => item.id.toString() === id
+    (item: Exercise) => item.id.toString() === id,
   );
 
   if (!exercise) {
@@ -60,22 +60,20 @@ export default function exercisePage() {
       <View style={styles.panel}>
         <Text style={styles.exerciseName}>{exercise.name}</Text>
         <Text style={styles.exerciseSubtitle}>
-          <Text style={styles.subValue}>{exercise.muscle}</Text> |{" "}
+          <Text style={styles.subValue}>{exercise.muscle}</Text> |{' '}
           <Text style={styles.subValue}>{exercise.equipment}</Text>
         </Text>
       </View>
       <View style={styles.panel}>
         <Text
           numberOfLines={isInstructionsExpanded ? 0 : 4}
-          style={styles.instructions}
-        >
+          style={styles.instructions}>
           {exercise.instructions}
         </Text>
         <Text
           onPress={() => setIsInstructionsExpanded(!isInstructionsExpanded)}
-          style={styles.seeMore}
-        >
-          {isInstructionsExpanded ? "Zwiń" : "Więcej"}
+          style={styles.seeMore}>
+          {isInstructionsExpanded ? 'Zwiń' : 'Więcej'}
         </Text>
       </View>
     </ScrollView>
