@@ -13,6 +13,7 @@ const exerciseQuery = gql`
     exercises(muscle: $muscle, name: $name) {
       name
       muscle
+      equipment
     }
   }
 `;

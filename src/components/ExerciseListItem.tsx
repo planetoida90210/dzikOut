@@ -1,7 +1,7 @@
 import { ListRenderItem } from '@shopify/flash-list';
 import { Text, StyleSheet, Pressable } from 'react-native';
 import React from 'react';
-import { Exercise } from '../types/exercise';
+
 import { Link } from 'expo-router';
 
 //Styles
@@ -34,13 +34,9 @@ const styles = StyleSheet.create({
   },
 });
 
-type ExerciseListItemProps = {
-  item: Exercise;
-};
-
-export const ExerciseListItem = ({ item }: ExerciseListItemProps) => {
+export const ExerciseListItem = ({ item }) => {
   return (
-    <Link asChild href={`/${item.id}` as string}>
+    <Link asChild href={`/${item.name}` as string}>
       <Pressable style={styles.exerciseContainer}>
         <Text style={styles.exerciseName}>{item.name}</Text>
         <Text style={styles.exerciseSubtitle}>
@@ -52,8 +48,6 @@ export const ExerciseListItem = ({ item }: ExerciseListItemProps) => {
   );
 };
 //Render to FlashList
-const renderItem: ListRenderItem<Exercise> = ({ item }) => (
-  <ExerciseListItem item={item} />
-);
+const renderItem = ({ item }) => <ExerciseListItem item={item} />;
 
 export { renderItem };
