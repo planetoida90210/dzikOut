@@ -14,6 +14,7 @@ import { Stack } from 'expo-router';
 
 import graphqlClient from '@/graphqlClient';
 import ts from 'typescript';
+import NewSetInput from '@/components/NewSetInput';
 
 const exerciseQuery = gql`
   query exercises($name: String) {
@@ -49,7 +50,6 @@ export default function exercisePage() {
   if (!exercise) {
     return <Text>Exercise not found</Text>;
   }
-  console.log(data);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -76,6 +76,7 @@ export default function exercisePage() {
             {isInstructionExpanded ? 'See less' : 'See more'}
           </Text>
         </View>
+        <NewSetInput />
       </View>
     </ScrollView>
   );
